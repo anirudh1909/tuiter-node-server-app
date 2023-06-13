@@ -26,8 +26,8 @@ app.use(
       callback(null, true);
     },
     methods: ['GET', 'POST', 'PUT', 'PATCH', 'DELETE'], // Allow all CRUD operations
-    })
-  );
+    })
+  );
 
 app.use(express.json());
 
@@ -40,3 +40,5 @@ UserController(app)
 AuthController(app);
 
 app.listen(process.env.PORT || 4000)
+
+   
