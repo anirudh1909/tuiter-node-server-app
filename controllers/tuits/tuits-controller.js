@@ -35,7 +35,3 @@ export default (app) => {
  app.put('/api/tuits/:tid', updateTuit);
  app.delete('/api/tuits/:tid', deleteTuit);
 }
-<<<<<<< HEAD
-//test
-=======
->>>>>>> 6eacf725770acdc41a4003c75b368696c0e707bf
