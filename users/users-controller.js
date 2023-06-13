@@ -46,7 +46,3 @@ const findUsers = (req, res) => {
 };
 
 export default UserController;
-<<<<<<< HEAD
-//test
-=======
->>>>>>> 6eacf725770acdc41a4003c75b368696c0e707bf

@@ -7,7 +7,7 @@ const AuthController = (app) => {
         const user = await usersDao.findUserByUsername(username);
         if (user) {
             res.sendStatus(409);
-            return;
+           return;
         }
         const newUser = await usersDao.createUser(req.body);
         currentUserVar = newUser;
