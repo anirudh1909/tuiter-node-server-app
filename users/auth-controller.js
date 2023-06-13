@@ -50,3 +50,4 @@ const AuthController = (app) => {
     app.put("/api/users", update);
 };
 export default AuthController;
+//test

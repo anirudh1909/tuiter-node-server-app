@@ -40,5 +40,9 @@ UserController(app)
 AuthController(app);
 
 app.listen(process.env.PORT || 4000)
+<<<<<<< HEAD
+//test
+=======
 
    
+>>>>>>> 6eacf725770acdc41a4003c75b368696c0e707bf

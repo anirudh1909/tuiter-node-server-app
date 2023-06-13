@@ -45,3 +45,7 @@ export const deleteUser = (uid) => {
   }
   return null;
 };
+<<<<<<< HEAD
+//test
+=======
+>>>>>>> 6eacf725770acdc41a4003c75b368696c0e707bf
