@@ -6,7 +6,7 @@ import UserController from "./users/users-controller.js"
 import TuitsController from "./controllers/tuits/tuits-controller.js";
 import AuthController from "./users/auth-controller.js";
 import mongoose from "mongoose";
-const CONNECTION_STRING = process.env.DB_CONNECTION_STRING || 'mongodb://127.0.0.1:27017/tuiter'
+const CONNECTION_STRING = 'mongodb+srv://anirudh1909:anirudh123@cluster0.ehhrpn0.mongodb.net/?retryWrites=true&w=majority'
 mongoose.connect(CONNECTION_STRING);
 
 
@@ -32,8 +32,6 @@ app.use(
   );
 
 app.use(express.json());
-
-const port = process.env.PORT || 4000;
 app.use(express.json());
 
 TuitsController(app);
