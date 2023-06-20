@@ -1,14 +1,5 @@
 export default [
-    { "username": "alice",
-    "password": "123",
-    "firstName": "Alice",
-    "lastName": "Wonderland"
-     },
-    { "username": "bob",
-    "password": "123",
-    "firstName": "Bob",
-    "lastName": "Marley"
-     },
-    { "username": "charlie", "password": "123", "firstName": "Charlie" , "lastName": "Brown"}
-  ]
-  
+  { "username": "alice",   "type": "FACULTY", "_id": "123" },
+  { "username": "bob",     "type": "STUDENT", "_id": "234" },
+  { "username": "charlie", "type": "FACULTY", "_id": "345" }
+]
