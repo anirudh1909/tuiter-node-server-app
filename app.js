@@ -22,11 +22,7 @@ app.use(
  app.use(
   cors({
     credentials: true,
-    origin: (origin, callback) => {
-      // Allow all origins
-      callback(null, true);
-    },
-    methods: ['GET', 'POST', 'PUT', 'PATCH', 'DELETE'], // Allow all CRUD operations
+    origin: "http://localhost:3000"
     })
   );
 
